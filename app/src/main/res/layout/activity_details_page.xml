@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details_Page">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!-- Title over image bottom -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView"
+        android:background="#BABFBABA"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="যেভাবে বাদাম ও বীজ খেলে সবচেয়ে বেশি উপকার পাবেন" />
+
+    <!-- Description below image -->
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:text="নৃগোষ্ঠীর ভাষা রক্ষায় কাজ করে তারা..." />
+
+</RelativeLayout>

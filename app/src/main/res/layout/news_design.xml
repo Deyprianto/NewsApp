@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:id="@+id/layMain"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:background="@drawable/box"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#EAE6E6"
+        android:layout_margin="5dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GAME"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:background="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:text="শেষ ম্যাচে ওমানকে পিটিয়ে ‘জ্বালা’ মেটাল অস্ট্রেলিয়া"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="none"
+            android:text="এতে কি অস্ট্রেলিয়ানদের মনের ব্যথা কিছুটা কমবে? কমতে পারে। মাত্র ৯.৪ ওভারে ১০৮ রান তুলে ৯ উইকেটের জয় বলে কথা।
+টি–টুয়েন্টি বিশ্বকাপে ‘বি’ গ্রুপের শেষ ম্যাচে অস্ট্রেলিয়া প্রথমে ওমানকে আটকে দিয়েছিল ১০৫ রানে। এরপর মিচেল মার্শ, ট্রাভিড হেডদের ঝোড়ো ব্যাটিংয়ে সহজ ও দ্রুত জয় অস্ট্রেলিয়ার।
+এটি টি-টুয়েন্টি বিশ্বকাপে যৌথভাবে দ্রুত রান তাড়া করে জেতার রেকর্ড। এর আগে ২০২৪ বিশ্বকাপে যুক্তরাষ্ট্রের বিপক্ষে ৯.৪ ওভারে রান তাড়া করে জিতেছিল ইংল্যান্ডও।" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
